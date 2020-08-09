@@ -17,4 +17,15 @@ public class BooleanExpression {
                 : ((a ^ b) ^ (c ^ d)) ? false
                 : true;
     }
+    
+    public void push(T value) {
+        Set<Short> s = new HashSet<>();
+        if (s != null) {
+            System.out.println("I am not null");
+        }
+        for (short i = 0; i < 100; i++) {
+            s.add(i);
+        }
+        System.out.println(s.size());
+    }
 }
