@@ -19,13 +19,10 @@ public class BooleanExpression {
     }
     
     public void push(T value) {
-        Set<Short> s = new HashSet<>();
-        if (s != null) {
-            System.out.println("I am not null");
-        }
-        for (short i = 0; i < 100; i++) {
-            s.add(i);
-        }
-        System.out.println(s.size());
+        int hello = 10;
+        int world = 15;
+        int result = hello + world;
+        result = 10;
+        System.out.println(result);
     }
 }
