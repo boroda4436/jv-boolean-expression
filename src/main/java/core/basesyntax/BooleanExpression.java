@@ -17,4 +17,12 @@ public class BooleanExpression {
                 : ((a ^ b) ^ (c ^ d)) ? false
                 : true;
     }
+    
+    public void push(T value) {
+        int hello = 10;
+        int world = 15;
+        int result = hello + world;
+        result = 10;
+        System.out.println(result);
+    }
 }
